@@ -20,13 +20,15 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 ul {
     list-style-type: none;
     text-decoration: none;
 }
 .nav-link {
-    list-style-position: ;
     text-decoration: none;
     color: aliceblue;
     background-color: black;
@@ -41,3 +43,12 @@ ul {
     margin-right: 5%;
     border-radius: 3%;
 }
+main {
+    margin-top: 200px;
+}
+@media screen and (max-width: 600px) {
+    #header {
+      float: none;
+      width: 100%;
+    }
+  }
